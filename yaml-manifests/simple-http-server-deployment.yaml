@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: simple-http-server
-        image: ghcr.io/cprimetraining101/simple-http-server-test
+        image: ghcr.io/cprimetraining101/simple-http-server
         ports:
         - containerPort: 8080
       imagePullSecrets:
